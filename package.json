@@ -1,0 +1,26 @@
+{
+  "name": "merge-sui-coins",
+  "version": "1.0.0",
+  "main": "src/main.ts",
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/main.ts"
+  },
+  "keywords": [],
+  "author": "moshuishapaozi",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "nodemon": "^3.1.9",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "@mysten/bcs": "^1.4.0",
+    "@mysten/sui": "^1.21.2",
+    "@types/dotenv": "^8.2.3",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.5.0",
+    "ts-node": "^10.9.2"
+  }
+}
